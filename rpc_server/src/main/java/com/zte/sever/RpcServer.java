@@ -19,9 +19,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 腾讯课堂搜索 咕泡学院
- * 加群获取视频：608583947
- * 风骚的Michael 老师
+ * 开启SocketServer，接受客户端请求，并将接口对应的实现类对象注入到容器
  */
 @PropertySource("classpath:rpc.properties")
 @Component
